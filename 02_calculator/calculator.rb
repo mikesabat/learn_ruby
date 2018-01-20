@@ -31,3 +31,21 @@ def multiply array
 		end
 	total
 end
+
+def power (x,y)
+	x**y	
+end
+
+def factorial i
+	# if i == 0 or i == 1
+	# 	1
+	# else
+	total = 1
+		while i != 0 and i != 1
+			total = total * i.to_i
+			i = i.to_i - 1
+		end
+	# end
+	total
+	
+end
