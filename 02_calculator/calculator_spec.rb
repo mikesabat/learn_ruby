@@ -79,9 +79,13 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers" do
+    expect(multiply([4,8])).to eq(32)
+  end
 
-  it "multiplies several numbers"
+  it "multiplies several numbers" do #so we need to pass in an array.
+    expect(multiply([33,14,7])).to eq(3234)
+  end
   
 end
 
